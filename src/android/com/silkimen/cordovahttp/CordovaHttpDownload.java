@@ -32,8 +32,8 @@ class CordovaHttpDownload extends CordovaHttpBase {
       File file = new File(new URI(this.filePath));
       //JSONObject fileEntry = FileUtils.getFilePlugin().getEntryForFile(file);
 
-      request.receive(file);
-      response.setFileEntry(fileEntry);
+     // request.receive(file);
+    //  response.setFileEntry(fileEntry);
     } else {
       response.setErrorMessage("There was an error downloading the file");
     }
