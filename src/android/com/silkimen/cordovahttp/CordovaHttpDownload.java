@@ -9,7 +9,7 @@ import javax.net.ssl.SSLSocketFactory;
 import com.silkimen.http.HttpRequest;
 import com.silkimen.http.TLSConfiguration;
 
-import org.apache.cordova.file.FileUtils;
+// import org.apache.cordova.file.FileUtils;
 import org.json.JSONObject;
 
 class CordovaHttpDownload extends CordovaHttpBase {
