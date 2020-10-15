@@ -30,7 +30,7 @@ class CordovaHttpDownload extends CordovaHttpBase {
 
     if (request.code() >= 200 && request.code() < 300) {
       File file = new File(new URI(this.filePath));
-      JSONObject fileEntry = FileUtils.getFilePlugin().getEntryForFile(file);
+      //JSONObject fileEntry = FileUtils.getFilePlugin().getEntryForFile(file);
 
       request.receive(file);
       response.setFileEntry(fileEntry);
